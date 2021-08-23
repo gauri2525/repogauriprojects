@@ -21,6 +21,8 @@ public class LaunchBrowser {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
         System.out.println("supriya's update");
+        System.out.println("supriya's 2nd update");
+        
         //Navigating to login page
         driver.findElement(By.xpath("//a[@title='My Account']")).click();
         driver.findElement(By.linkText("Login")).click();
