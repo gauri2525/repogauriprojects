@@ -20,6 +20,7 @@ public class LaunchBrowser {
         driver.manage().window().maximize();;
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
+        System.out.println("supriya's update");
         //Navigating to login page
         driver.findElement(By.xpath("//a[@title='My Account']")).click();
         driver.findElement(By.linkText("Login")).click();
